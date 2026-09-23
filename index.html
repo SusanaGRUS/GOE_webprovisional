@@ -351,11 +351,11 @@
     .contact-grid{grid-template-columns:1fr;gap:32px}
   }
   @media (max-width:900px){
-    .nav{display:none}
-    .menu-btn{display:grid}
-    .header-inner{flex-wrap:wrap;align-items:center;height:auto;min-height:56px;padding-block:10px;row-gap:8px}
-    .header-tools{order:1;margin-left:auto}
-    .site-header .logo-row{order:2;flex-basis:100%;flex-wrap:wrap;justify-content:flex-start}
+    .nav{display:flex;order:3;flex-basis:100%;flex-wrap:wrap;justify-content:center;gap:2px 4px}
+    .menu-btn{display:none}
+    .header-inner{flex-wrap:wrap;align-items:center;height:auto;min-height:56px;padding-block:12px;row-gap:12px}
+    .header-tools{order:1;flex-basis:100%;justify-content:flex-end}
+    .site-header .logo-row{order:2;flex-basis:100%;flex-wrap:wrap;justify-content:center;gap:16px 22px}
     .about-two{grid-template-columns:1fr;gap:34px}
     .about-figure{max-width:560px}
     .logo-row{gap:18px 26px}
